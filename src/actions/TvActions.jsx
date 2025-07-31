@@ -14,7 +14,7 @@ export const asyncloadTv = (id) => async (dispatch, getState) => {
       external_ids: external_ids.data,
       recommendations: recommendations.data.results,
       similar: similar.data.results,
-      videos: videos.data.results.find(m=> m.type === 'Trailer'),
+      videos: videos.data.results.find(m => m.type === 'Trailer' && m.site === 'YouTube'),
       watchproviders: watchproviders.data.results.IN,
     };
     dispatch(setInfo(allDetails))

@@ -55,7 +55,7 @@ function Movie() {
         <div className="flex items-center gap-3">
           <i
             onClick={() => navigate("/")}
-            class="ri-arrow-left-line text-2xl hover:text-[#6556CC] "
+            className="ri-arrow-left-line text-2xl hover:text-[#6556CC] "
           ></i>
           <h1 className="text-2xl font-semibold">Movies</h1>
         </div>

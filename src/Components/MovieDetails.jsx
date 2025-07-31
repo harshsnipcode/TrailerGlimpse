@@ -32,14 +32,14 @@ function MovieDetails() {
           <div className="flex items-center  gap-3">
             <i
               onClick={() => navigate("/")}
-              class="ri-arrow-left-line text-4xl hover:text-[#6556CC] "
+              className="ri-arrow-left-line text-4xl hover:text-[#6556CC] "
             ></i>
             <a
               className="text-xl  bg-orange-600 px-4 py-1 rounded-full text-white"
               target="_blank"
               href={info.detail.homepage}
             >
-              <i class="ri-external-link-fill"></i>
+              <i className="ri-external-link-fill"></i>
             </a>
             <a
               className="text-xl bg-orange-600 px-4 py-1 rounded-full text-white"
