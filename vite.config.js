@@ -15,5 +15,5 @@ export default defineConfig({
       'Access-Control-Allow-Headers': 'Content-Type, Authorization',
     }
   },
-  base:process.env.VITE_BASE_PATH || "/TrailerGlimpse"
+  base: process.env.VITE_BASE_PATH,
 });
